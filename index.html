@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Facts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+          background-image: url('assets/images/background.png');
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar special">
+            <div class="navbar-brand">
+                <img src="assets/images/attention.gif" alt="">
+                <h1 class="navbar-item">Fido Facts</h1>
+                <a class="navbar-item first" href="#about">About</a>
+                <a class="navbar-item" href="#find">Find</a>
+        </nav>
+
+    </header>
+   
+    <section id="about" class="columns">
+        <div class="column is-4 is-offset-2">
+            <div class="notification card has-text-centered">
+                <h2>What is Fido Facts?</h2>
+                <p>Fido Facts is designed to allow users to look up dog breeds that they are interested in and learn information on them. Through "The Dog Api" we are able to learn things such as, but not limited to; average life span, temperament, and weight for the breed of your choosing. Throught this we hope to inform users on what they might expect when getting a specific breed of dog.
+                </p>
+            </div>
+        </div>
+
+        <div class="column is-3 is-offset-1">
+            <div id="Giphy"></div>
+            <p class="has-text-centered">This gif is brought to you by Giphy's api which allows us to display random dog gifs, please enjoy!</p>
+        </div>
+        
+    </section>
+       
+    <section id="find" class="columns">
+        <select class=" dropdown breed-select column is-2 is-offset-5">
+            <option>Find Your Fido!</option>
+        </select>
+    </section>
+
+    <section id="info" class="columns">
+        <div class="column is-3 is-offset-3">
+            <p><img src="" class="breed-photo" alt=""></p>
+        </div>
+       
+        <div class="column is-4 dog-facts-card">
+            <div class="notification has-text-centered card">
+                <h2 id="dog-name"><strong></strong></h2>
+                <ul>
+                    <li id="height"></li>
+                    <li id="weight"></li>
+                    <li id="life-span"></li>
+                    <li id="temperament"></li>
+                    <li id="bred-for"></li>
+                    <li id="origin"></li>
+                   
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer has-text-centered">
+        <p > Copyright &copy; 2023 Natalie Matos, Cassandra Scelsi, Wajeeha Riyasat, & Jamarie Brown </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/facts.js"></script>
+    <script src="./assets/js/breed.js"></script>
+</body>
+</html>
