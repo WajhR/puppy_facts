@@ -1,7 +1,7 @@
 # PUPPY FACTS
  
 ## Description
-Fido Facts is a web app that provides facts about dog breeds.  Our motivation to create Fido Facts was to help dog lovers wanting to adopt to be able to select the best dog breed to fit their lifestyle and preferences.  Fido Facts allows users to visit one website to learn about over 170 dog breeds rather than having to look up each individual breed on a different site.
+Puppy Facts is a web app that provides facts about dog breeds.  Our motivation to create Fido Facts was to help dog lovers wanting to adopt to be able to select the best dog breed to fit their lifestyle and preferences.  Fido Facts allows users to visit one website to learn about over 170 dog breeds rather than having to look up each individual breed on a different site.
 
 It was challenging to learn how to work with a new CSS framework, how to work with APIs, and how to work together as a development team.  However, we were able to learn from these challenges in order to deploy a successful web app.
   
